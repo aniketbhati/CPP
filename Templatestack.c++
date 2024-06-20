@@ -26,7 +26,7 @@ class Stack {
                 return arr[top--];
             }
       }
-
+//funtion to print stack
       void printStack() {
         for (int i = top; i >= 0; --i) {
             cout << arr[i] << " ";
@@ -45,10 +45,10 @@ class Stack {
         cout<<intStack.pop()<<endl;
         cout<<charStack.pop()<<endl;
 
-        cout << "stack values: ";
+        cout << "stack values1: ";
         intStack.printStack();
 
-        cout << "String stack values: ";
+        cout << "stack values2: ";
         charStack.printStack();
         return 0;
 
